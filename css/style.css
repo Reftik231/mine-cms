@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+	background: white;
+}
+
+-wbkit-scrollbar {
+	background-color: blue;
+}
+
+-wbkit-scrollbar-thumb {
+	background-color: black;
+	border-radius: 10px;
+}
+
+.head {
+	height: 100%;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+.logo-txt {
+	font-family: 'Honk', system-ui;
+	font-size: 45px;
+	text-decoration: none;
+	margin: 20px;
+	margin-right: 10%;
+}
+
+.head-txt {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-decoration: none;
+	margin: 20px;
+}
+
+h1 {
+	font-family: 'Pixelify Sans';
+	font-size: 100px;
+}
+
+
+@media (orientation: landscape) {
+  .before-png {
+	float: left;
+	width: 500px;
+	border-radius: 20px;
+	margin: 40px;
+	margin-left: 20%;
+	}
+}
+
+@media (orientation: portrait) {
+  .before-png {
+	float: left;
+	width: 80%;
+	border-radius: 20px;
+	margin: 40px;
+	margin-right: 20%;
+	}
+}
+
+.before-txt {
+	float: left;
+	margin: 40px;
+	margin-top: 50px;
+}
+
+.stat-server-block {
+	/*border: 2px solid black;*/
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: -70px;
+	/*box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)*/
+}
+
+.stat-server1 {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background-color: rgba(255, 135, 0, 0.8);
+	margin: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(255, 135, 0, 2.5)
+}
+.stat-server2 {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background-color: rgba(255, 135, 0, 0.8);
+	margin: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(255, 135, 0, 2.5)
+}
+
+.stat-server3 {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background-color: rgba(255, 135, 0, 0.8);
+	margin: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(255, 135, 0, 2.5)
+}
+
+.server-info {
+	border: 2px solid black;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+}
